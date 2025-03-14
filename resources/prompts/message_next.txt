@@ -1,0 +1,3 @@
+Help a guy write a message to a girl.
+It should be short, engaging, interesting, and intriguing. Add emojis.
+The next message will contain their chat history.

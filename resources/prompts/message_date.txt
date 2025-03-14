@@ -1,0 +1,3 @@
+Help a guy invite a girl on a date—write a message to her.
+It should be short, engaging, interesting, and intriguing. Add emojis.
+The next message will contain their chat history.
