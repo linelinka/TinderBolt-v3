@@ -9,7 +9,7 @@ class ChatGptService:
 
     def __init__(self, token):
         token = "sk-proj-" + token[:3:-1] if token.startswith('gpt:') else token
-        self.client = openai.OpenAI(http_client=httpx.Client(proxy="http://18.199.183.77:49232"), api_key=token)
+        self.client = openai.OpenAI(api_key=token, http_client=httpx.Client(proxies="http://18.199.183.77:49232"))
         self.message_list = []
 
     async def send_message_list(self) -> str:
